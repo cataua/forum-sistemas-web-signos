@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Forum: Disciplina Sistemas Web</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <header class="col-12">
+        <h1 class="display-2">
+          Qual é o seu Signo
+        </h1>
+      </header>
+      <div class="col">
+        <form method="POST" action="result.php" class="form-group">
+          <div class="row">
+            <div class="mb-3 col-12 col-md-8">
+              <label for="nome" class="form-input-group">
+                Nome:
+              </label>
+              <input type="text" name="nome" id="nome" class="form-control" />
+            </div>
+            <div class="mb-3 col-12 col-md-4">
+              <label for="datanasc" class="form-input-group">
+                  Data de nascimento:
+              </label>
+              <input type="date" name="datanasc" id="datanasc" class="form-control" />
+            </div>
+            <div class="mb-3 col-12 col-md-2 ms-auto d-grid">
+              <button type="submit" class="btn btn-info text-white">
+                Enviar
+              </button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

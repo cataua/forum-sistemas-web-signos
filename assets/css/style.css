@@ -1,0 +1,46 @@
+.zodiac {
+  display: block;
+  width: 125px;
+  height: 125px;
+  background-image: url("../images/zodiac.png");
+  background-repeat: no-repeat;
+  background-size: 520px;
+}
+.zodiac.aries {
+  background-position: 0px 0px;
+}
+.zodiac.leo {
+  background-position: 0px -173px;
+}
+.zodiac.sagitarius {
+  background-position: 0px -335px;
+}
+.zodiac.taurus {
+  background-position: -130px 0px;
+}
+.zodiac.virgo {
+  background-position: -130px -173px;
+}
+.zodiac.capricorn {
+  background-position: -130px -335px;
+}
+.zodiac.gemini {
+  background-position: -260px 0px;
+}
+.zodiac.libra {
+  background-position: -268px -173px;
+}
+.zodiac.aquarius {
+  background-position: -268px -341px;
+}
+.zodiac.cancer {
+  background-position: -410px 0px;
+}
+.zodiac.scorpio {
+  background-position: -410px -171px;
+}
+.zodiac.pisces {
+  background-position: -410px -346px;
+}
+
+/*# sourceMappingURL=style.css.map */
